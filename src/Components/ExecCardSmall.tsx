@@ -39,7 +39,6 @@ function ExecCardSmall({imgURL, name, subname, desc}: Props){
         </div>
         <div className="bottom-bottom">
           <div className="social-links-container"></div>
-          <button className="button">Contact Me</button>
         </div>
       </div>
     </div>
