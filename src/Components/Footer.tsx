@@ -14,8 +14,8 @@ function Footer(){
                     <div className="">
                             <table>
                                 <tr>
-                                    <td><a>Mission</a></td>
-                                    <td>
+                                    <td onClick={()=>{window.location.href = "mission.html"}}><a>Mission</a></td>
+                                    <td onClick={()=>{window.location.href = "executives.html"}}>
                                         <a>Executives</a>
                                     </td>
                                     <td><a href="https://www.linkedin.com/company/mini-ai/">LinkedIn</a></td>

@@ -32,8 +32,8 @@ function ExecCardSmall({imgURL, name, subname, desc}: Props){
       </div>
       <div className="bottom">
         <div className="content">
-          <span className="name">{name}<br/>{subname}</span>
-          <span className="about-me">
+          <span className="name ">{name}<br/>{subname}</span>
+          <span className="about-me show-hover">
             {desc}
           </span>
         </div>
